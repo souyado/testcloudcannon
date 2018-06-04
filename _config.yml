@@ -1,0 +1,15 @@
+paginate: 5
+paginate_path: "/blog/page:num"
+collections:
+  services:
+    output: true
+name: Creative Agency
+description: "We are a creative agency who provides web design, SEO, content and social services."
+url: "http://creative.com"
+defaults:
+  -
+    scope:
+      path: ""
+      type: "services"
+    values:
+      layout: "post"
